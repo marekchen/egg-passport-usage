@@ -37,8 +37,6 @@ module.exports = app => {
           user_name: user.username,
         },
       });
-      ctx.logger.warn("existsUser:" + JSON.stringify(existsUser));
-      ctx.logger.warn("user:" + JSON.stringify(user));
       if (existsUser) {
         if (existsUser.password === user.password) {
           return existsUser;
