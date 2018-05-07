@@ -1,0 +1,8 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "linebreak-style": ["off", "windows"],
+    "array-bracket-spacing": ["off"],
+    "eol-last": ["off"]
+  }
+}
